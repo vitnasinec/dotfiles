@@ -1,0 +1,12 @@
+
+alias art = "php artisan"
+alias seed = "php artisan migrate:fresh --seed"
+
+alias en = "envoy run"
+alias phpunit = "vendor/bin/phpunit"
+alias pu = "vendor/bin/phpunit"
+alias puf = "vendor/bin/phpunit --filter="
+alias t = "php artisan test"
+alias ta = "php artisan test && php artisan dusk --pest"
+alias tf = "php artisan test --filter"
+alias svgo = "svgo --config=/Users/viitek/Dropbox/Apps/Dotfiles/svgo3.config.js --pretty"

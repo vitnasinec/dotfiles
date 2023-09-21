@@ -1,0 +1,12 @@
+alias ~="cd ~"
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias ll='ls -lh'
+alias la='ls -lAh'
+
+function take() {
+  mkdir -p $1
+  cd $1
+}
